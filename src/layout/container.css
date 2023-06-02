@@ -1,0 +1,7 @@
+ 
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0rem 2rem;
+    border: 1px solid lightblue;
+}
