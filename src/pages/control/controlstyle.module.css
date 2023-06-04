@@ -1,0 +1,62 @@
+.control {
+        width: 40vw;
+        min-height: 100vh;
+        border:1px solid transparent ;
+        box-shadow: 0px 0px 5px lightgreen;
+        border-radius: 4px ;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+}
+.header__control{
+    
+    width: 100%;
+    padding: 12px 1rem;
+    text-align: center;
+    background-color:#333;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.form__control{
+    width: 100%;
+    padding: 1rem 2rem;
+    margin: 5px auto;
+}
+.label__control{
+    background-color:lightblue;
+    margin: 1rem auto ;
+    display: block;
+    text-align: center;
+    padding:1rem ;
+    
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: #333;
+}
+.input__control{
+ width: 100%;
+ margin: 1rem auto ;
+ border:1px solid lightblue;
+ border-radius: 4px;
+ padding: 12px 16px;
+ color: #333;
+ letter-spacing: 1px;
+}
+
+.btn {
+    padding: 7px 14px ;
+    margin: 0rem auto;
+    display: block;
+    border-radius: 4px;
+    border:1px solid lightblue;
+    background-color: lightblue;
+    outline:transparent;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color:#fff;
+    color:#333;
+}

@@ -1,0 +1,53 @@
+.home__container{
+    width: 80%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.post {
+    width:320px;
+    height: auto;
+    margin: 2rem auto;
+    padding: 0.5rem ;
+    border:1px solid lightblue ;
+    position: relative;
+}
+.post::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    top: 0;
+    left: 0;
+    background-color: lightblue;
+}
+.post button {
+    padding:7px 14px ;
+    border-radius: 4px; background-color: lightblue;
+    color: #fff;
+    display:block;
+    margin:2rem auto;
+    cursor: pointer ;
+    outline: none;
+    border: 1px solid #e2e2e2;
+}
+.post  h3{
+    font-size: 1.2rem ;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.post h3:hover~p{
+    color: red;
+}
+.post p{
+    color:#333;
+    text-align: justify;
+}
+.home__none{
+    background-color: blueviolet;
+}
